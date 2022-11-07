@@ -172,9 +172,9 @@ const App = () => {
     try {
       await RNSimpleOpenvpn.connect({
         remoteAddress: '',
-        ovpnFileName: 'Japan', // Japan or Russian (android assets folder)
+        ovpnFileName: 'Russian', // Japan or Russian (android assets folder)
         assetsPath: '',
-        notificationTitle: 'RNSimpleOpenVPN',
+        notificationTitle: 'Vpn May Rais',
         compatMode: RNSimpleOpenvpn.CompatMode.OVPN_TWO_THREE_PEER,
         providerBundleIdentifier: 'com.your.network.extension.bundle.id',
         localizedDescription: 'TestRNSimpleOvpn',
